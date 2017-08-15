@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+ol,ul,textarea{list-style-type:none;}
+/*select, input, img ,textarea{ vertical-align: middle; outline: none; }*/
+a { text-decoration: none;color:#000; }
+/*a { blr:expression(this.onFocus=this.blur())*/
+/*}*/
+a { outline: none; }
+/*html { overflow-x: hidden;*/
+	/*-webkit-text-size-adjust:none*/
+/*}*/
+/*.clear{ content: ""; display: block; clear: both; }*/
+.lt { float: left; }
+.rt { float: right; }
+/*div{filter:alpha(opacity:80);}*/
+/*.ng-cloak {display: none;}*/
+/*input::-ms-clear{display:none;}/!*隐藏文本框叉子*!/*/
+/*input::-ms-reveal{display:none;}/!*隐藏密码框小眼睛*!/*/
+/*body{*/
+	/*overflow:hidden;*/
+/*}*/
+

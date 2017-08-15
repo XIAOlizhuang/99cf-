@@ -1,0 +1,90 @@
+﻿@charset "UTF-8";
+.containers{
+	/*position:absolute;*/
+	height:2500px;
+	width:100%;
+	background:url(../img/bg.png) center center no-repeat;
+	margin:0 auto;
+	overflow: hidden;
+}
+#box{
+	width:1000px;
+	height:2500px;
+	padding-top:864px;
+	margin:0 auto;
+	box-sizing: border-box;
+}
+/*统一下面三个的样式、宽度、居中*/
+.items{
+	width:756px;
+	margin:0 auto;
+}
+/*开始写第一个新手奖励样式*/
+.awards{
+	padding-left:90px;
+	padding-top:110px;
+	height:610px;
+	box-sizing: border-box;
+}
+.awards>*{
+	color:#FF7026;
+	font-weight:600;
+}
+.awards>p{
+	margin-top:35px;
+}
+.awards>p>span{
+	color:#FF3F3F;
+}
+.awards>span{
+	display: inline-block;
+	margin-top:10px;
+}
+/*开始写第二部分call*/
+.call{
+	padding-left:70px;
+	padding-top:75px;
+	margin-top:155px;
+	height:310px;
+	box-sizing: border-box;
+}
+.call>p{
+	color:#FF7026;
+	font-weight:600;
+}
+.call>p.call-last{
+	margin-top: 30px;
+	width:600px;
+}
+/*开始写第三部分rule*/
+.rule{
+	padding-left:70px;
+	margin-top:85px;
+}
+.rule>p{
+	font-size: 24px;
+	color:#693100;
+	margin-bottom:40px;
+	padding-left:54px;
+}
+.rule span{
+	display: inline-block;
+	margin-top:5px;
+	color:#6C3505;
+}
+/*开始写第四部分注册*/
+.register{
+	margin:55px auto 0px;
+	width:249px;
+	height:90px;
+	border-radius: 29px;
+	-webkit-border-radius: 29px;
+	-ms-border-radius:29px;
+	-moz-border-radius:29px;
+	box-sizing: border-box;
+}
+.register>a{
+	display: block;
+	width:249px;
+	height:90px;
+}
